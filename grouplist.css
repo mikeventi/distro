@@ -1,0 +1,135 @@
+#edit-panel {
+        background: transparent url('topbar.gif') no-repeat;
+        background-position: x-0 y-0;
+        margin:0;
+}
+
+#edit-panel {
+    display: none;
+    padding: 0;
+    background-color: #242424;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    width: 480px;
+       filter:alpha(opacity=90);
+       -moz-opacity: 0.9;
+       opacity: 0.9;
+}
+
+.panel-h3 {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.even {
+    background-color: #191919;
+}
+
+.odd {
+    background-color: #000;
+}
+
+#edit-list-container {
+    padding: 20px 10px;
+    z-index: 101;
+}
+
+#new-user-row input {
+    border: 1px solid #666;
+    color: white;
+}
+
+#edit-panel-buttons  {
+    margin: 30px 0;
+    width: 460px;
+    padding-left: 110px;
+}
+
+#edit-panel-buttons  {
+    z-index:102;
+}
+
+#edit-list-container table {
+    width: 460px;
+    border: 1px solid #333;
+    margin: 5px 0 10px 0;
+    border-collapse:collapse;
+}
+
+#edit-list-container table td {
+    padding-left: 5px;
+    height:25px;
+}
+
+
+#edit-list-container, #edit-list-container ul{
+    color: white;
+}
+
+tr#new-row {
+    background-color: #424242;
+    height: 25px;
+}
+
+tr#new-row ul, ul#edit-panel-buttons {
+    list-style: none;
+    float: left;
+    clear: both;
+}
+
+tr#new-row ul li, ul#edit-panel-buttons li {
+    margin-right: 15px;
+    float: left;
+}
+
+tr#new-row ul li span{
+    margin-top: 4px;
+}
+
+#save-status {
+    color: white;
+}
+
+.close-button {
+    z-index: 102;
+    display: block;
+    width: 40px;
+}
+
+.sprite-add {
+    display: block;
+    width: 20px; height: 20px;
+    background: transparent url(action_sprite.png) 0 0 no-repeat;
+}
+
+.sprite-delete {
+    display: block;
+    width: 20px; height: 20px;
+    background: transparent url(action_sprite.png) -20px 0 no-repeat;
+}
+
+.sprite-save {
+    display: block;
+    width: 20px; height: 20px;
+    background: transparent url(action_sprite.png) -40px 0 no-repeat;
+}
+
+.sprite-edit {
+    display: block;
+    width: 20px; height: 20px;
+    background: transparent url(action_sprite.png) -60px 0 no-repeat;
+}
+
+.checkbox-checked {
+    display: block;
+    width:12px; height: 13px;
+    background: transparent url(checkbox_sprite.png) -12px 0 no-repeat;
+}
+
+.checkbox-unchecked {
+    display: block;
+    width:12px; height: 13px;
+    background: transparent url(checkbox_sprite.png) 0 0 no-repeat;
+}
+
